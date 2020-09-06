@@ -17,6 +17,7 @@
 		C29F99412505359100A4DF2A /* HTK_MemoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F99402505359100A4DF2A /* HTK_MemoriesTests.swift */; };
 		C29F994C2505359100A4DF2A /* HTK_MemoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F994B2505359100A4DF2A /* HTK_MemoriesUITests.swift */; };
 		C29F995A250536D700A4DF2A /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C29F9959250536D700A4DF2A /* Readme.md */; };
+		C29F995D2505456300A4DF2A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F995C2505456300A4DF2A /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C29F994B2505359100A4DF2A /* HTK_MemoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTK_MemoriesUITests.swift; sourceTree = "<group>"; };
 		C29F994D2505359100A4DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29F9959250536D700A4DF2A /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		C29F995C2505456300A4DF2A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		C29F99252505358D00A4DF2A /* HTK Memories */ = {
 			isa = PBXGroup;
 			children = (
+				C29F995B250544A100A4DF2A /* Scene */,
 				C29F99262505358D00A4DF2A /* AppDelegate.swift */,
 				C29F99282505358D00A4DF2A /* SceneDelegate.swift */,
 				C29F992A2505358D00A4DF2A /* ViewController.swift */,
@@ -132,6 +135,14 @@
 				C29F994D2505359100A4DF2A /* Info.plist */,
 			);
 			path = "HTK MemoriesUITests";
+			sourceTree = "<group>";
+		};
+		C29F995B250544A100A4DF2A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C29F995C2505456300A4DF2A /* SplashView.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			files = (
 				C29F99312505358D00A4DF2A /* HTK_Memories.xcdatamodeld in Sources */,
 				C29F992B2505358D00A4DF2A /* ViewController.swift in Sources */,
+				C29F995D2505456300A4DF2A /* SplashView.swift in Sources */,
 				C29F99272505358D00A4DF2A /* AppDelegate.swift in Sources */,
 				C29F99292505358D00A4DF2A /* SceneDelegate.swift in Sources */,
 			);
