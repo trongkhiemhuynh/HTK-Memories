@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C29F99272505358D00A4DF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F99262505358D00A4DF2A /* AppDelegate.swift */; };
+		C29F99292505358D00A4DF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F99282505358D00A4DF2A /* SceneDelegate.swift */; };
+		C29F992B2505358D00A4DF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F992A2505358D00A4DF2A /* ViewController.swift */; };
+		C29F992E2505358D00A4DF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29F992C2505358D00A4DF2A /* Main.storyboard */; };
+		C29F99312505358D00A4DF2A /* HTK_Memories.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C29F992F2505358D00A4DF2A /* HTK_Memories.xcdatamodeld */; };
+		C29F99332505359100A4DF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29F99322505359100A4DF2A /* Assets.xcassets */; };
+		C29F99362505359100A4DF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29F99342505359100A4DF2A /* LaunchScreen.storyboard */; };
+		C29F99412505359100A4DF2A /* HTK_MemoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F99402505359100A4DF2A /* HTK_MemoriesTests.swift */; };
+		C29F994C2505359100A4DF2A /* HTK_MemoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F994B2505359100A4DF2A /* HTK_MemoriesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C29F993D2505359100A4DF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29F991B2505358D00A4DF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29F99222505358D00A4DF2A;
+			remoteInfo = "HTK Memories";
+		};
+		C29F99482505359100A4DF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29F991B2505358D00A4DF2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29F99222505358D00A4DF2A;
+			remoteInfo = "HTK Memories";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C29F99232505358D00A4DF2A /* HTK Memories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTK Memories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29F99262505358D00A4DF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C29F99282505358D00A4DF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C29F992A2505358D00A4DF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C29F992D2505358D00A4DF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C29F99302505358D00A4DF2A /* HTK_Memories.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HTK_Memories.xcdatamodel; sourceTree = "<group>"; };
+		C29F99322505359100A4DF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C29F99352505359100A4DF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C29F99372505359100A4DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29F993C2505359100A4DF2A /* HTK MemoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTK MemoriesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29F99402505359100A4DF2A /* HTK_MemoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTK_MemoriesTests.swift; sourceTree = "<group>"; };
+		C29F99422505359100A4DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29F99472505359100A4DF2A /* HTK MemoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTK MemoriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29F994B2505359100A4DF2A /* HTK_MemoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTK_MemoriesUITests.swift; sourceTree = "<group>"; };
+		C29F994D2505359100A4DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29F99202505358D00A4DF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F99392505359100A4DF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F99442505359100A4DF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29F991A2505358D00A4DF2A = {
+			isa = PBXGroup;
+			children = (
+				C29F99252505358D00A4DF2A /* HTK Memories */,
+				C29F993F2505359100A4DF2A /* HTK MemoriesTests */,
+				C29F994A2505359100A4DF2A /* HTK MemoriesUITests */,
+				C29F99242505358D00A4DF2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C29F99242505358D00A4DF2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29F99232505358D00A4DF2A /* HTK Memories.app */,
+				C29F993C2505359100A4DF2A /* HTK MemoriesTests.xctest */,
+				C29F99472505359100A4DF2A /* HTK MemoriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29F99252505358D00A4DF2A /* HTK Memories */ = {
+			isa = PBXGroup;
+			children = (
+				C29F99262505358D00A4DF2A /* AppDelegate.swift */,
+				C29F99282505358D00A4DF2A /* SceneDelegate.swift */,
+				C29F992A2505358D00A4DF2A /* ViewController.swift */,
+				C29F992C2505358D00A4DF2A /* Main.storyboard */,
+				C29F99322505359100A4DF2A /* Assets.xcassets */,
+				C29F99342505359100A4DF2A /* LaunchScreen.storyboard */,
+				C29F99372505359100A4DF2A /* Info.plist */,
+				C29F992F2505358D00A4DF2A /* HTK_Memories.xcdatamodeld */,
+			);
+			path = "HTK Memories";
+			sourceTree = "<group>";
+		};
+		C29F993F2505359100A4DF2A /* HTK MemoriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C29F99402505359100A4DF2A /* HTK_MemoriesTests.swift */,
+				C29F99422505359100A4DF2A /* Info.plist */,
+			);
+			path = "HTK MemoriesTests";
+			sourceTree = "<group>";
+		};
+		C29F994A2505359100A4DF2A /* HTK MemoriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C29F994B2505359100A4DF2A /* HTK_MemoriesUITests.swift */,
+				C29F994D2505359100A4DF2A /* Info.plist */,
+			);
+			path = "HTK MemoriesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29F99222505358D00A4DF2A /* HTK Memories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29F99502505359100A4DF2A /* Build configuration list for PBXNativeTarget "HTK Memories" */;
+			buildPhases = (
+				C29F991F2505358D00A4DF2A /* Sources */,
+				C29F99202505358D00A4DF2A /* Frameworks */,
+				C29F99212505358D00A4DF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTK Memories";
+			productName = "HTK Memories";
+			productReference = C29F99232505358D00A4DF2A /* HTK Memories.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C29F993B2505359100A4DF2A /* HTK MemoriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29F99532505359100A4DF2A /* Build configuration list for PBXNativeTarget "HTK MemoriesTests" */;
+			buildPhases = (
+				C29F99382505359100A4DF2A /* Sources */,
+				C29F99392505359100A4DF2A /* Frameworks */,
+				C29F993A2505359100A4DF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29F993E2505359100A4DF2A /* PBXTargetDependency */,
+			);
+			name = "HTK MemoriesTests";
+			productName = "HTK MemoriesTests";
+			productReference = C29F993C2505359100A4DF2A /* HTK MemoriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C29F99462505359100A4DF2A /* HTK MemoriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29F99562505359100A4DF2A /* Build configuration list for PBXNativeTarget "HTK MemoriesUITests" */;
+			buildPhases = (
+				C29F99432505359100A4DF2A /* Sources */,
+				C29F99442505359100A4DF2A /* Frameworks */,
+				C29F99452505359100A4DF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29F99492505359100A4DF2A /* PBXTargetDependency */,
+			);
+			name = "HTK MemoriesUITests";
+			productName = "HTK MemoriesUITests";
+			productReference = C29F99472505359100A4DF2A /* HTK MemoriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C29F991B2505358D00A4DF2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "HTK Technologies";
+				TargetAttributes = {
+					C29F99222505358D00A4DF2A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C29F993B2505359100A4DF2A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C29F99222505358D00A4DF2A;
+					};
+					C29F99462505359100A4DF2A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C29F99222505358D00A4DF2A;
+					};
+				};
+			};
+			buildConfigurationList = C29F991E2505358D00A4DF2A /* Build configuration list for PBXProject "HTK Memories" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C29F991A2505358D00A4DF2A;
+			productRefGroup = C29F99242505358D00A4DF2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29F99222505358D00A4DF2A /* HTK Memories */,
+				C29F993B2505359100A4DF2A /* HTK MemoriesTests */,
+				C29F99462505359100A4DF2A /* HTK MemoriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29F99212505358D00A4DF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29F99362505359100A4DF2A /* LaunchScreen.storyboard in Resources */,
+				C29F99332505359100A4DF2A /* Assets.xcassets in Resources */,
+				C29F992E2505358D00A4DF2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F993A2505359100A4DF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F99452505359100A4DF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29F991F2505358D00A4DF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29F99312505358D00A4DF2A /* HTK_Memories.xcdatamodeld in Sources */,
+				C29F992B2505358D00A4DF2A /* ViewController.swift in Sources */,
+				C29F99272505358D00A4DF2A /* AppDelegate.swift in Sources */,
+				C29F99292505358D00A4DF2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F99382505359100A4DF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29F99412505359100A4DF2A /* HTK_MemoriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F99432505359100A4DF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29F994C2505359100A4DF2A /* HTK_MemoriesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C29F993E2505359100A4DF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29F99222505358D00A4DF2A /* HTK Memories */;
+			targetProxy = C29F993D2505359100A4DF2A /* PBXContainerItemProxy */;
+		};
+		C29F99492505359100A4DF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29F99222505358D00A4DF2A /* HTK Memories */;
+			targetProxy = C29F99482505359100A4DF2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C29F992C2505358D00A4DF2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29F992D2505358D00A4DF2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C29F99342505359100A4DF2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29F99352505359100A4DF2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C29F994E2505359100A4DF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C29F994F2505359100A4DF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29F99512505359100A4DF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HTK Memories/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.stevehuynh.HTK-Memories";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C29F99522505359100A4DF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HTK Memories/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.stevehuynh.HTK-Memories";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C29F99542505359100A4DF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HTK MemoriesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.stevehuynh.HTK-MemoriesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTK Memories.app/HTK Memories";
+			};
+			name = Debug;
+		};
+		C29F99552505359100A4DF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HTK MemoriesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.stevehuynh.HTK-MemoriesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTK Memories.app/HTK Memories";
+			};
+			name = Release;
+		};
+		C29F99572505359100A4DF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HTK MemoriesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.stevehuynh.HTK-MemoriesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HTK Memories";
+			};
+			name = Debug;
+		};
+		C29F99582505359100A4DF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HTK MemoriesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.stevehuynh.HTK-MemoriesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HTK Memories";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29F991E2505358D00A4DF2A /* Build configuration list for PBXProject "HTK Memories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29F994E2505359100A4DF2A /* Debug */,
+				C29F994F2505359100A4DF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29F99502505359100A4DF2A /* Build configuration list for PBXNativeTarget "HTK Memories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29F99512505359100A4DF2A /* Debug */,
+				C29F99522505359100A4DF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29F99532505359100A4DF2A /* Build configuration list for PBXNativeTarget "HTK MemoriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29F99542505359100A4DF2A /* Debug */,
+				C29F99552505359100A4DF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29F99562505359100A4DF2A /* Build configuration list for PBXNativeTarget "HTK MemoriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29F99572505359100A4DF2A /* Debug */,
+				C29F99582505359100A4DF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C29F992F2505358D00A4DF2A /* HTK_Memories.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C29F99302505358D00A4DF2A /* HTK_Memories.xcdatamodel */,
+			);
+			currentVersion = C29F99302505358D00A4DF2A /* HTK_Memories.xcdatamodel */;
+			path = HTK_Memories.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C29F991B2505358D00A4DF2A /* Project object */;
+}
