@@ -10,16 +10,15 @@ import SwiftUI
 
 struct SplashView: View {
     
-    @State private var tfName : String = "KHIEM"
+    @State private var version : String = "0.1"
+    @State var currentDate = Date()
+    
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
         VStack {
-//            HStack {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                Text("Designed by Steve Huynh")
-//            }
-                
-            TextField("hi", text: $tfName)
+            Text("HTK Memories")
+            Text("version \(version)")
         }
     }
 }

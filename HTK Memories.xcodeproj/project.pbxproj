@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2298B06250DE25E0014CB73 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2298B05250DE25E0014CB73 /* Protocol.swift */; };
+		C2298B08250DE9A60014CB73 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2298B07250DE9A60014CB73 /* MainView.swift */; };
 		C29F99272505358D00A4DF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F99262505358D00A4DF2A /* AppDelegate.swift */; };
 		C29F99292505358D00A4DF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F99282505358D00A4DF2A /* SceneDelegate.swift */; };
 		C29F992B2505358D00A4DF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F992A2505358D00A4DF2A /* ViewController.swift */; };
-		C29F992E2505358D00A4DF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29F992C2505358D00A4DF2A /* Main.storyboard */; };
 		C29F99312505358D00A4DF2A /* HTK_Memories.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C29F992F2505358D00A4DF2A /* HTK_Memories.xcdatamodeld */; };
 		C29F99332505359100A4DF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29F99322505359100A4DF2A /* Assets.xcassets */; };
 		C29F99362505359100A4DF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29F99342505359100A4DF2A /* LaunchScreen.storyboard */; };
@@ -38,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2298B05250DE25E0014CB73 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		C2298B07250DE9A60014CB73 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C29F99232505358D00A4DF2A /* HTK Memories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTK Memories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29F99262505358D00A4DF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29F99282505358D00A4DF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C29F992A2505358D00A4DF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C29F992D2505358D00A4DF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C29F99302505358D00A4DF2A /* HTK_Memories.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HTK_Memories.xcdatamodel; sourceTree = "<group>"; };
 		C29F99322505359100A4DF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29F99352505359100A4DF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +84,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2298B00250CFB350014CB73 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C29F99262505358D00A4DF2A /* AppDelegate.swift */,
+				C29F99282505358D00A4DF2A /* SceneDelegate.swift */,
+				C29F99322505359100A4DF2A /* Assets.xcassets */,
+				C29F99342505359100A4DF2A /* LaunchScreen.storyboard */,
+				C29F99372505359100A4DF2A /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C2298B01250CFB8B0014CB73 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C2298B07250DE9A60014CB73 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C2298B02250CFB960014CB73 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		C2298B03250CFBB00014CB73 /* More */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		C2298B04250DE2440014CB73 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C2298B05250DE25E0014CB73 /* Protocol.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		C29F991A2505358D00A4DF2A = {
 			isa = PBXGroup;
 			children = (
@@ -106,14 +150,10 @@
 		C29F99252505358D00A4DF2A /* HTK Memories */ = {
 			isa = PBXGroup;
 			children = (
+				C2298B04250DE2440014CB73 /* Shared */,
+				C2298B00250CFB350014CB73 /* Resource */,
 				C29F995B250544A100A4DF2A /* Scene */,
-				C29F99262505358D00A4DF2A /* AppDelegate.swift */,
-				C29F99282505358D00A4DF2A /* SceneDelegate.swift */,
 				C29F992A2505358D00A4DF2A /* ViewController.swift */,
-				C29F992C2505358D00A4DF2A /* Main.storyboard */,
-				C29F99322505359100A4DF2A /* Assets.xcassets */,
-				C29F99342505359100A4DF2A /* LaunchScreen.storyboard */,
-				C29F99372505359100A4DF2A /* Info.plist */,
 				C29F992F2505358D00A4DF2A /* HTK_Memories.xcdatamodeld */,
 			);
 			path = "HTK Memories";
@@ -140,6 +180,9 @@
 		C29F995B250544A100A4DF2A /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				C2298B03250CFBB00014CB73 /* More */,
+				C2298B02250CFB960014CB73 /* Sync */,
+				C2298B01250CFB8B0014CB73 /* Main */,
 				C29F995C2505456300A4DF2A /* SplashView.swift */,
 			);
 			path = Scene;
@@ -252,7 +295,6 @@
 				C29F99362505359100A4DF2A /* LaunchScreen.storyboard in Resources */,
 				C29F99332505359100A4DF2A /* Assets.xcassets in Resources */,
 				C29F995A250536D700A4DF2A /* Readme.md in Resources */,
-				C29F992E2505358D00A4DF2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +320,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29F99312505358D00A4DF2A /* HTK_Memories.xcdatamodeld in Sources */,
+				C2298B08250DE9A60014CB73 /* MainView.swift in Sources */,
 				C29F992B2505358D00A4DF2A /* ViewController.swift in Sources */,
 				C29F995D2505456300A4DF2A /* SplashView.swift in Sources */,
 				C29F99272505358D00A4DF2A /* AppDelegate.swift in Sources */,
 				C29F99292505358D00A4DF2A /* SceneDelegate.swift in Sources */,
+				C2298B06250DE25E0014CB73 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C29F992C2505358D00A4DF2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C29F992D2505358D00A4DF2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C29F99342505359100A4DF2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -455,7 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HTK Memories/Info.plist";
+				INFOPLIST_FILE = "HTK Memories/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,7 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HTK Memories/Info.plist";
+				INFOPLIST_FILE = "HTK Memories/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
