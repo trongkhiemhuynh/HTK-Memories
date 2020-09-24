@@ -10,7 +10,24 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text("Main View")
+        TabView {
+            Text("Back up to iCloud Kit")
+                .tabItem {
+                    Image(systemName: "square.fill")
+                    Text("Back up")
+            }
+            Text("Add new event")
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Add")
+            }
+            
+            Text("More...")
+                .tabItem {
+                    Image(systemName: "square.fill")
+                    Text("More")
+            }
+        }
     }
 }
 
